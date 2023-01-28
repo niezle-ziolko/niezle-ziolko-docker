@@ -14,6 +14,7 @@ The docker image installs the following packages on your system:
 |WordPress|[Latest from WordPress](https://wordpress.org/download/)|                                          |
 |phpMyAdmin|[Latest from dockerhub](https://hub.docker.com/r/bitnami/phpmyadmin/)|                            |
 |Redis|[Latest from dockerhub](https://hub.docker.com/_/redis)|                                               |
+|Duplicati|[Latest from dockerhub](https://hub.docker.com/r/linuxserver/duplicati/)|                          |
 |                                                                                                             |
 | :-------------: | :-------------: || :-------------: | :-------------: || :-------------: | :-------------: |
 
@@ -37,6 +38,9 @@ bash
 │   └── localhost
 ├── custom
 │   └── dockerfile
+├── duplicati
+│   ├── backups
+│   └── config
 ├── LICENSE
 ├── README.md
 ├── redis.conf
