@@ -67,6 +67,7 @@ services:
       - /home/ubuntu/niezle-ziolko/duplicati/config:/config
       - /home/ubuntu/niezle-ziolko/duplicati/backups:/backups
       - /home/ubuntu/niezle-ziolko/duplicati:/source
+      - /home/ubuntu/niezle-ziolko/sites/niezle-ziolko.eu/html:/media
     ports:
       - 8200:8200
     restart: unless-stopped
